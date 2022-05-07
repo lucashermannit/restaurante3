@@ -1,0 +1,70 @@
+{
+    "entrada": [
+        {
+            "nombre": "Sopa de Langostinos",
+            "precio": "500",
+            "imagen": "link",
+            "descripcion": "Una exquisita sopa a base de Langostinos"
+        },
+        {
+            "nombre": "Quesito",
+            "precio": "300",
+            "imagen": "link",
+            "descripcion": "Queso de cabra patagonica"
+        }
+    ],
+    "principal": [
+        {
+            "nombre": "Sushi",
+            "precio": "1200",
+            "imagen": "link",
+            "descripcion": "30 piezas de sushu puro japones"
+        },
+        {
+            "nombre": "Carne Salteada",
+            "precio": "1600",
+            "imagen": "link",
+            "descripcion": "Carne de ternera salteada de la casa"
+        },
+        {
+            "nombre": "Arroz Peruano",
+            "precio": "1400",
+            "imagen": "link",
+            "descripcion": "Arroz salteado con verduras de estacion"
+        }
+    ],
+    "postre": [
+        {
+            "nombre": "Budin",
+            "precio": "500",
+            "imagen": "link",
+            "descripcion": "Budin de pan"
+        },
+        {
+            "nombre": "Arroz con leche",
+            "precio": "600",
+            "imagen": "link",
+            "descripcion": "Arroz con leche y un toque de canela"
+        },
+        {
+            "nombre": "Suspiro Limeño",
+            "precio": "500",
+            "imagen": "link",
+            "descripcion": "Postre típico peruano"
+        }
+    ],
+    "bebida": [
+        {
+            "nombre": "Cerveza",
+            "precio": "200",
+            "imagen": "link",
+            "descripcion": "Cerveza artesanal tirada"
+        },
+        {
+            "nombre": "Agua",
+            "precio": "100",
+            "imagen": "link",
+            "descripcion": "La mejor agua de la canilla"
+        }
+    ]
+}
