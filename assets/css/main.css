@@ -1,11 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 
-/*
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+:root {
+    /* VARIABLES DE COLOR */
+	--color-principal: #6f2e66; /* color principal */
+    --color-principal-oscurecido: #3f1b3a; /* color principal oscurecido */
+    --color-secundario: #ceb754; /* color secundario */
+	--color-botones: var(--color-principal); /* color botones de navegacion */
+}
+
+p {
+	color: var(--color-principal-oscurecido);
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-secundario)
+}
+
+a:hover {
+	color: var(--color-principal);
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1306,7 +1321,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-color: var(--color-principal-oscurecido);
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1328,7 +1343,7 @@ input, select, textarea {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #777777;
-		font-size: 20pt;
+		font-size: 15pt;
 		line-height: 1.75em;
 	}
 
@@ -1366,7 +1381,7 @@ input, select, textarea {
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #363636;
+		color: var(--color-principal);
 	}
 
 	h1 {
@@ -1408,6 +1423,7 @@ input, select, textarea {
 
 	em, i {
 		font-style: italic;
+		color: var(--color-principal-oscurecido);
 	}
 
 	hr {
@@ -1432,8 +1448,11 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
+	dl {
+		margin-bottom: 2em;
+	}
 
-	p, ul, ol, dl, table, blockquote, form {
+	ul, ol, table, blockquote, form {
 		margin-bottom: 2em;
 	}
 
@@ -1533,7 +1552,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #aaa;
+			color: var(--color-principal-oscurecido);
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1774,11 +1793,11 @@ input, select, textarea {
 		height: 4.25em;
 		cursor: default;
 	}
-
+	
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #ffffff;
+			color: var(--color-secundario); /* Color boton letras */
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
