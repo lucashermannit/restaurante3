@@ -4,8 +4,8 @@
 :root {
     /* VARIABLES DE COLOR */
 	--color-principal: #6f2e66; /* color principal */
-    --color-principal-oscurecido: #3f1b3a; /* color principal oscurecido */
-    --color-secundario: #ceb754; /* color secundario */
+	--color-principal-oscurecido: #3f1b3a; /* color principal oscurecido */
+	--color-secundario: #ceb754; /* color secundario */
 	--color-botones: var(--color-principal); /* color botones de navegacion */
 }
 
